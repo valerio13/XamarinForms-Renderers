@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{E46B4212-02BD-4F5C-BFD6-4BC685A2B609}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pruebas_componentes.Android/Renderers/BasicRenderers/BasicSliderRenderer.cs">
+    <Files>
+      <File FileName="Pruebas_componentes.UITests/Tests.cs" Line="1" Column="1" />
+      <File FileName="Pruebas_componentes/MainPage.xaml" Line="20" Column="96" />
+      <File FileName="Pruebas_componentes.Android/Renderers/BasicRenderers/BasicSliderRenderer.cs" Line="31" Column="41" />
+      <File FileName="Pruebas_componentes.UITests/AppInitializer.cs" />
+      <File FileName="Pruebas_componentes.Android/MainActivity.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pruebas_componentes" expanded="True">
+            <Node name="Pruebas_componentes" expanded="True" />
+            <Node name="Pruebas_componentes.Android" expanded="True">
+              <Node name="Renderers" expanded="True">
+                <Node name="BasicRenderers" expanded="True">
+                  <Node name="BasicSliderRenderer.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Pruebas__componentes.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.219EB971-1FC2-4645-899D-A55F4D63A16C" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Pruebas__componentes.Android PreferredExecutionTarget="Android.pixel_3_xl_pie_9_0_-_api_28" />
+</Properties>
