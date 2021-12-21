@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:oneyControls="clr-namespace:OneyApp.Controls.OneyControls"
+             x:Class="Pruebas_componentes.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="GreenOney">#81BC00</Color>
+            <Color x:Key="Blue">#43aee7</Color>
+            <Color x:Key="Disabled">Gray</Color>
+            <Color x:Key="BackgroundColor">#33302E</Color>
+            <Color x:Key="BackgroundAccent">#F2F2F2</Color>
+            <Color x:Key="BackgroundGrayColor">#F4F6F8</Color>
+            <Color x:Key="LightGrayOney">#7e7e7d</Color>            
+            <Color x:Key="MediumLightGrayOney">#e0e0e0</Color>
+
+            <Style x:Key="oneySlider" TargetType="Slider">
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="MaximumTrackColor" Value="{StaticResource MediumLightGrayOney}"/>
+                <Setter Property="MinimumTrackColor" Value="{StaticResource GreenOney}"/>
+                <Setter Property="ThumbColor" Value="{StaticResource GreenOney}"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>                                 
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="OneySlider:"
+               FontAttributes="Bold"
+               Margin="0,20,0,0"/>
+        <oneyControls:OneySlider Style="{StaticResource oneySlider}"
+                                 Maximum="30"
+                                 Minimum="10"/>
+        
+    </StackLayout>
+
+</ContentPage>
